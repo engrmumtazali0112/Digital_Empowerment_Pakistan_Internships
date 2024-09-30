@@ -10,41 +10,44 @@ Welcome to the Digital Empowerment Pakistan Internship projects repository! This
 
 Digital Empowerment Pakistan is an initiative bridging the gap between academia and industry. Our internship provides hands-on experience in:
 
+- Frontend Development
 - Backend Development
-- Web Development
+- Full-Stack Web Development
 - API Creation
 - Database Management
-- Task Automation
+- Static Website Design
 
 ## 📂 Projects
 
-### 1. CRUD API with Node.js and Express
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" /> <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+### 1. Personal Profile Static Website
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 
-A RESTful API demonstrating basic CRUD operations.
-- **Folder**: `crud-api-nodejs`
-- **Key Features**: User management, Data persistence, RESTful endpoints
+A static personal profile website showcasing HTML, CSS, and JavaScript skills.
+- **Folder**: `Personal-Profile-Static-Website`
+- **Key Features**: Responsive design, Portfolio showcase, Contact form
+- **[View Project](https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/tree/main/Personal-Profile-Static-Website)**
 
-### 2. E-Commerce Website Backend
+### 2. Blog Website with Node.js, Express, and MongoDB
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" /> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+
+A full-stack blog website demonstrating CRUD operations and user authentication.
+- **Folder**: `blog-website-node.js-express-mongodb`
+- **Key Features**: User authentication, Blog post management, Comments system
+- **[View Project](https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/tree/main/blog-website-node.js-express-mongodb)**
+
+### 3. E-Commerce Website Backend
 <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" /> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
 
 Robust backend for an e-commerce platform.
 - **Folder**: `ecommerce-backend`
 - **Key Features**: User authentication, Product management, Order processing
-
-### 3. Task Automation with Python
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-
-Efficient Python scripts for automating routine tasks.
-- **Folder**: `task-automation-python`
-- **Key Features**: File management, Data processing, Scheduled executions
+- **[View Project](https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/tree/main/blog-website-node.js-express-mongodb)**
 
 ## 🛠️ Technologies
 
-- **Backend**: Node.js, Express.js, Python
-- **Databases**: MySQL, MongoDB
-- **Web**: HTML, CSS, JavaScript
-- **APIs**: RESTful architecture
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Backend**: Node.js, Express.js
+- **Databases**: MongoDB
 - **Version Control**: Git, GitHub
 
 ## 🚀 Getting Started
@@ -56,25 +59,34 @@ Efficient Python scripts for automating routine tasks.
 
 2. Navigate to a project folder:
    ```
-   cd Digital_Empowerment_Pakistan_Internships/crud-api-nodejs
+   cd Digital_Empowerment_Pakistan_Internships/[project-folder]
    ```
 
-3. Install dependencies (for Node.js projects):
+3. For Node.js projects:
    ```
    npm install
+   npm start
    ```
 
-4. Run the project:
-   - For Node.js: `node index.js`
-   - For Python: `python automation.py`
+4. For static websites, open the `index.html` file in your browser.
 
 ## 📚 Learning Outcomes
 
-- Practical experience in full-stack development
+- Proficiency in full-stack web development
+- Experience with modern JavaScript frameworks and libraries
 - Understanding of database design and management
-- Proficiency in RESTful API development
-- Skills in task automation and scripting
-- Exposure to industry-standard development practices
+- Skills in building responsive and interactive user interfaces
+- Exposure to industry-standard development practices and version control
+
+## 🌟 Project Highlights
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/raw/main/Personal-Profile-Static-Website/screenshot.png" width="200px" alt="Personal Profile Website"/><br /><sub><b>Personal Profile Website</b></sub></td>
+    <td align="center"><img src="https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/raw/main/blog-website-node.js-express-mongodb/screenshot.png" width="200px" alt="Blog Website"/><br /><sub><b>Blog Website</b></sub></td>
+    <td align="center"><img src="https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/raw/main/ecommerce-backend/screenshot.png" width="200px" alt="E-Commerce Backend"/><br /><sub><b>E-Commerce Backend</b></sub></td>
+  </tr>
+</table>
 
 ## 🤝 Contribute
 
