@@ -1,124 +1,163 @@
-#  E-Commerce Website using MERN Stack.
-A E-Commerce website developed using ReactJS for the frontend, NodeJs for the backend, MongoDB as database.
+# 🛒 E-Commerce Website using MERN Stack
 
+A full-stack e-commerce website developed using ReactJS for the frontend, Node.js and Express for the backend, and MongoDB as the database.
 
-## Table of contents
-* [Prerequisites](#prerequisites)
-* [Requirements](#requirements)
-* [Technologies](#technologies)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Contact](#contact)
+![GitHub last commit](https://img.shields.io/github/last-commit/engrmumtazali0112/E-Commerce-Website-using-MERN-Stack)
+![GitHub issues](https://img.shields.io/github/issues/engrmumtazali0112/E-Commerce-Website-using-MERN-Stack)
+![GitHub stars](https://img.shields.io/github/stars/engrmumtazali0112/E-Commerce-Website-using-MERN-Stack)
+![GitHub forks](https://img.shields.io/github/forks/engrmumtazali0112/E-Commerce-Website-using-MERN-Stack)
+![GitHub license](https://img.shields.io/github/license/engrmumtazali0112/E-Commerce-Website-using-MERN-Stack)
 
+## 📋 Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Technologies](#technologies)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Prerequisites
-- Text Editor ([VS Code](https://code.visualstudio.com/download) , [Atom](https://atom.io/), [Brackets](http://brackets.io/), etc.)
-- Node.js and npm - [install here](https://www.npmjs.com/get-npm)
-- MongoDB - [install here](https://docs.mongodb.com/manual/installation/)
+## 🚀 Prerequisites
 
+Before you begin, ensure you have met the following requirements:
+* [Node.js](https://nodejs.org/) (v14.0.0 or later)
+* [npm](https://www.npmjs.com/) (v6.0.0 or later)
+* [MongoDB](https://www.mongodb.com/) (v4.0 or later)
+* A text editor like [VS Code](https://code.visualstudio.com/) or [Atom](https://atom.io/)
 
-## Requirements
-To run this project, install it locally using npm:
+## 💻 Installation
 
-- git clone git@github.com:suhassalian27/E-Commerce-Website-using-ReactJS-NodeJS.git
-```
-  $ cd E-Commerce-Website-using-ReactJS-NodeJS
-```
-- To Run Backend
-  - open terminal 
-```
-  $ npm install
-  $ npm start
-```
-- To Run Frontend
-  - open new terminal
-```
-  $ cd frontend
-  $ npm install
-  $ npm start
-```
+To set up and run this project locally, follow these steps:
 
-## Technologies
-Project is created with:
-* HTML5 and CSS3: Semantic Elements, CSS Grid, Flexbox
-* React: Components, Props, Events, Hooks, Router, Axios, React-Bootstrap
-* Redux: Store, Reducers, Actions
-* Node & Express: Web API, Body Parser, File Upload, JWT
-* MongoDB: Mongoose
-* Development: ESLint, Babel, Git, Github,
-* Deployment: 
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/engrmumtazali0112/E-Commerce-Website-using-MERN-Stack.git
+   ```
 
-## Features
-List of features ready and TODOs for future development
-* User Login, Signup, User Authentication.
-* Admin Login.
-* Add, Edit, Remove Products. (Only Admin)
-* Add to Cart.
+2. Navigate to the project directory:
+   ```sh
+   cd E-Commerce-Website-using-MERN-Stack
+   ```
 
-To-do list:
-* Sorting
-* Search
+3. Install and run the backend:
+   ```sh
+   npm install
+   npm start
+   ```
 
-## Screenshots
+4. Install and run the frontend:
+   ```sh
+   cd frontend
+   npm install
+   npm start
+   ```
 
-### Home Page
-This is the home page of e-commerce. It shows a list of products. It also uses React-Bootstrap Corousel for corousel.
+## 🛠️ Technologies
 
-![Main](Screenshots/main.png)
+This project leverages the following technologies:
 
-________________________________________________________
+- **Frontend**:
+  - HTML5, CSS3 (CSS Grid, Flexbox)
+  - React (Hooks, Router)
+  - Redux (State Management)
+  - Axios (API requests)
+  - React-Bootstrap (UI components)
 
-### Product Details Page
-When the user clicks on a product it takes you to the product details page.
+- **Backend**:
+  - Node.js
+  - Express.js
+  - MongoDB
+  - Mongoose ODM
+  - JSON Web Token (Authentication)
 
-![Product Details](Screenshots/product-details.png)
-________________________________________________________
+- **Development & Deployment**:
+  - Git & GitHub (Version Control)
+  - ESLint (Code Linting)
+  - Babel (JavaScript Compiler)
+  - Heroku (Deployment - Pending)
 
-### Cart
-Shopping Cart is the heart of any e-commerce website. I have created a user-friendly shopping cart using React and Redux.
+## ✨ Features
 
-![Cart](Screenshots/cart.png)
-________________________________________________________
+- User Authentication (Signup, Login, JWT)
+- Admin Dashboard (Product Management)
+- Product Catalog with Categories
+- Shopping Cart Functionality
+- Checkout Process
+- Responsive Design (Mobile-friendly)
+- Payment Integration (Stripe/PayPal - Pending)
 
-### Register
-I have created forms for getting user info and save them in the database.
+**Upcoming Features**:
+- Product Search & Filtering
+- User Reviews & Ratings
+- Wishlist
+- Order Tracking
 
-![Register](Screenshots/register.png)
-________________________________________________________
+## 📸 Screenshots
 
-### Sign-In
-Sign in page for user to sign in.
+<details>
+<summary>Click to view screenshots</summary>
 
-![SignIn](Screenshots/signin.png)
-________________________________________________________
+### Main Page
+![main](https://github.com/user-attachments/assets/e9d30828-5d1b-4246-b56a-5c26e626e574)
 
-## Ordering Products
+### Product Showcase
+![main2](https://github.com/user-attachments/assets/b4e0c219-7b44-4df0-adcd-4a97bb2e4279)
 
-Sign in page for user to sign in.
+### User Registration
+![register](https://github.com/user-attachments/assets/beb356cc-6217-46eb-96d8-63dd313b4e7c)
 
-### Shipping Screen
-![Shipping](Screenshots/shipping.png)
-________________________________________________________
+### Sign In
+![signin](https://github.com/user-attachments/assets/d52bb5ff-23c4-44b3-b88c-ce84692968c5)
+
+### Add Product (Admin)
+![add-product](https://github.com/user-attachments/assets/cd1b9d95-61c8-4103-a8bc-477211fba34c)
+
+### Product Details
+![product-details](https://github.com/user-attachments/assets/37d79af0-2c44-46cf-af62-cb224a78fed8)
+
+### Place Order
+![placeorder](https://github.com/user-attachments/assets/e5f0934d-2262-4626-8bd6-8199377793ab)
+
+### Shopping Cart
+![cart](https://github.com/user-attachments/assets/2d6f0b09-c5b4-4636-96f1-65e1a6f65f3c)
+
+### Admin Products Management
+![admin-products](https://github.com/user-attachments/assets/fa80afa4-10e3-4f00-af9d-b50dbccb7058)
+
 ### Payment Screen
-![Payment](Screenshots/payment.png)
-________________________________________________________
-### Place Order Screen
-![Place Order](Screenshots/placeorder.png)
-________________________________________________________
+![payment](https://github.com/user-attachments/assets/01b0cc67-c78a-4d3b-8721-107642fd4766)
 
-### Admin 
-Admin should be able to define products and update the count in stock whenever they like. This page is about managing ECommerce products.
+</details>
 
-## View Products (admin)
+## 🤝 Contributing
 
-![Admin View Products](Screenshots/admin-products.png)
-________________________________________________________
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Add Products (admin)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-![Admin Add products](Screenshots/add-product.png)
-________________________________________________________
+## 📄 License
 
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
-[Suhas Suhas](https://www.suhassalian.netlify.com/) - feel free to contact me!
+## 📞 Contact
+
+Mumtaz Ali - [engrmumtazali01@gmail.com](mailto:engrmumtazali01@gmail.com)
+
+Project Link: [https://github.com/engrmumtazali0112/E-Commerce-Website-using-MERN-Stack](https://github.com/engrmumtazali0112/E-Commerce-Website-using-MERN-Stack)
+
+<p align="center">
+  <a href="mailto:engrmumtazali01@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/mumtaz-ali"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.instagram.com/its_maliyzi"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+  <a href="https://www.hackerrank.com/profile/engrmumtazali01"><img src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"/></a>
+  <a href="https://github.com/engrmumtazali0112"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
+
+---
+
+<p align="center">Made with ❤️ by Mumtaz Ali</p>
