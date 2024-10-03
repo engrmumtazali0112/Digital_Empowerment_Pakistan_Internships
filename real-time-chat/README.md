@@ -44,6 +44,54 @@ This project is a **real-time chat application** developed using the **Django** 
 ### Backend Setup
 
 1. Clone the repository:
-   ```bash
+
    git clone https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships.git
    cd Digital_Empowerment_Pakistan_Internships/real-time-chat
+Create a virtual environment:
+
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+Install backend dependencies:
+
+
+pip install -r requirements.txt
+Set up Django Channels in your settings.py:
+
+
+INSTALLED_APPS = [
+    'channels',
+    'your_app_name',
+]
+
+ASGI_APPLICATION = 'your_project_name.asgi.application'
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels.layers.InMemoryChannelLayer',
+    },
+}
+Run migrations to set up the database:
+
+
+python manage.py migrate
+Create a superuser for admin access:
+
+
+python manage.py createsuperuser
+Run the development server:
+
+
+python manage.py runserver
+Frontend Setup
+Navigate to the frontend directory:
+
+
+cd frontend
+Install the required frontend dependencies:
+
+
+npm install
+Build the frontend files using Webpack:
+
+
+npm run build
