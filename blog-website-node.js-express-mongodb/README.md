@@ -167,8 +167,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 Mumtaz Ali - [engrmumtazali01@gmail.com](mailto:engrmumtazali01@gmail.com)
 
-Project Link: [https://github.com/yourusername/blog-website](https://github.com/yourusername/blog-website)
-
+Project Link: https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/tree/main/blog-website-node.js-express-mongodb
 <p align="center">
   <a href="mailto:engrmumtazali01@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/mumtazali12/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
