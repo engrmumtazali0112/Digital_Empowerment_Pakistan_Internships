@@ -37,13 +37,17 @@ A dynamic, full-stack web application built with Django, facilitating interactiv
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 ## 📸 Screenshots
 
 <details>
 <summary>Click to view screenshots</summary>
-![roomm](https://github.com/user-attachments/assets/bd5456d2-a277-48e2-b940-67316669de7e)
-![vcds](https://github.com/user-attachments/assets/7651d09a-6b15-4dfd-a125-d7172194e8c5)
-![roomchat](https://github.com/user-attachments/assets/b1149ce0-d9c6-4892-b44d-0003fdd929a5)
+
+![Room](https://github.com/user-attachments/assets/bd5456d2-a277-48e2-b940-67316669de7e)
+![Project Structure](https://github.com/user-attachments/assets/7651d09a-6b15-4dfd-a125-d7172194e8c5)
+![Room Chat](https://github.com/user-attachments/assets/b1149ce0-d9c6-4892-b44d-0003fdd929a5)
+
+</details>
 
 
 ## 📁 Project Structure
