@@ -16,6 +16,7 @@ Digital Empowerment Pakistan is an initiative bridging the gap between academia 
 - API Creation
 - Database Management
 - Static Website Design
+- Real-Time Application Development
 
 ## 📂 Projects
 
@@ -41,13 +42,30 @@ A full-stack blog website demonstrating CRUD operations and user authentication.
 Robust backend for an e-commerce platform.
 - **Folder**: `ecommerce-backend`
 - **Key Features**: User authentication, Product management, Order processing
-- **[View Project](https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/tree/main/blog-website-node.js-express-mongodb)**
+- **[View Project](https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/tree/main/ecommerce-backend)**
+
+### 4. CRUD Application using PHP & MySQL
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+
+A comprehensive web-based CRUD application for managing student information.
+- **Folder**: `CRUD-Application-PHP-MySQL`
+- **Key Features**: Student management, File uploads, Responsive design, Data validation
+- **[View Project](https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/tree/main/CRUD-Application-PHP-MySQL)**
+
+### 5. Real-Time Chat Application
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" />
+
+A real-time chat application enabling instant communication between users.
+- **Folder**: `real-time-chat`
+- **Key Features**: Real-time messaging, User presence, Multiple chat rooms
+- **[View Project](https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/tree/main/real-time-chat)**
 
 ## 🛠️ Technologies
 
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: Node.js, Express.js
-- **Databases**: MongoDB
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap
+- **Backend**: Node.js, Express.js, PHP
+- **Databases**: MongoDB, MySQL
+- **Real-time Communication**: Socket.io
 - **Version Control**: Git, GitHub
 
 ## 🚀 Getting Started
@@ -62,13 +80,7 @@ Robust backend for an e-commerce platform.
    cd Digital_Empowerment_Pakistan_Internships/[project-folder]
    ```
 
-3. For Node.js projects:
-   ```
-   npm install
-   npm start
-   ```
-
-4. For static websites, open the `index.html` file in your browser.
+3. Follow the setup instructions in each project's README file.
 
 ## 📚 Learning Outcomes
 
@@ -77,14 +89,19 @@ Robust backend for an e-commerce platform.
 - Understanding of database design and management
 - Skills in building responsive and interactive user interfaces
 - Exposure to industry-standard development practices and version control
+- Real-time application development skills
 
 ## 🌟 Project Highlights
 
 <table>
   <tr>
-    <td align="center"><img src="https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/raw/main/Personal-Profile-Static-Website/screenshot.png" width="200px" alt="Personal Profile Website"/><br /><sub><b>Personal Profile Website</b></sub></td>
-    <td align="center"><img src="https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/raw/main/blog-website-node.js-express-mongodb/screenshot.png" width="200px" alt="Blog Website"/><br /><sub><b>Blog Website</b></sub></td>
-    <td align="center"><img src="https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/raw/main/ecommerce-backend/screenshot.png" width="200px" alt="E-Commerce Backend"/><br /><sub><b>E-Commerce Backend</b></sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/62d1b77e-4676-4e6b-b9e6-a71da6ed3eef" width="200px" alt="Personal Profile Website"/><br /><sub><b>Personal Profile Website</b></sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/9ceddbfa-7ed8-48f1-baf0-4cddf2627d7c" width="200px" alt="Blog Website"/><br /><sub><b>Blog Website</b></sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/56b4f335-ae70-4a63-a620-f850fffd17d6" width="200px" alt="E-Commerce Backend"/><br /><sub><b>E-Commerce Backend</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/ef785c0f-9a2a-4380-9b97-37184ff35f72" width="200px" alt="CRUD Application"/><br /><sub><b>CRUD Application</b></sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/b0d96248-2728-4e30-967a-98d2a02e9f10" width="200px" alt="Real-Time Chat"/><br /><sub><b>Real-Time Chat</b></sub></td>
   </tr>
 </table>
 
