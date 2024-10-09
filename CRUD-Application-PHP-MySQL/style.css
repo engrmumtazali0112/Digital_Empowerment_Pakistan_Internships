@@ -1,0 +1,72 @@
+/* style.css */
+
+/* Body styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+/* Card title */
+.card-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #48c038;
+}
+
+/* Button styling */
+.btn {
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #117a8b;
+    border-color: #0f5964;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #bd2130;
+    border-color: #7a1d23;
+}
+
+/* Table styling */
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table-dark th {
+    background-color: #4274a7;
+    color: #ffffff;
+}
+
+
+img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover; /* Ensures the image is properly cropped to fit */
+}

@@ -1,0 +1,54 @@
+
+How to run that project in our system 
+
+
+mkdir crud_project  //comand line 
+cd crud_project
+mkdir css js
+
+File structure:
+
+Copy/crud_project
+    /css
+        - bootstrap.min.css
+    /js
+        - bootstrap.bundle.min.js
+        - jquery.min.js
+        - script.js
+    - config.php
+    - index.php
+    - create.php
+    - read.php
+    - update.php
+    - delete.php
+
+install xampp open it start Apache and MySql server 
+
+http://localhost/crud_project/    //run in browser
+
+Create Database 
+mysql -u root -p;
+
+CREATE DATABASE crud_project;
+
+USE crud_project;
+
+DESCRIBE students;
+
+SELECT * FROM students;
+
+
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL UNIQUE,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+
+Add data from datbase "Command line "
+
+INSERT INTO students (student_name, email, phone, course, image_path)
+VALUES ('John Doe', 'john.doe@example.com', '1234567890', 'Computer Science', 'uploads/mumtaz.png');
+
+
