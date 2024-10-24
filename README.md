@@ -1,10 +1,14 @@
 # 🚀 Digital Empowerment Pakistan Internships
 
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships)
 ![GitHub repo size](https://img.shields.io/github/repo-size/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships)
 ![GitHub stars](https://img.shields.io/github/stars/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships?style=social)
 
-Welcome to the Digital Empowerment Pakistan Internship projects repository! This collection showcases the practical skills and innovative solutions developed during our internship program.
+## 📄 Digital Empowerment Internship Report
+
+ 📥 [ Download the report](https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/raw/main/Digital%20Empowerment%20Pakistan%20Internship%20Report.pdf)
+
 
 ## 🎯 Program Overview
 
@@ -105,7 +109,11 @@ A real-time chat application enabling instant communication between users.
   </tr>
 </table>
 
+
+
 ## 🤝 Contribute
+
+
 
 We welcome contributions! Whether you're fixing bugs, improving documentation, or proposing new features, your efforts are appreciated.
 
