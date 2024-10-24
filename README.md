@@ -5,9 +5,10 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships)
 ![GitHub stars](https://img.shields.io/github/stars/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships?style=social)
 
-## 📄 Digital Empowerment Internship Report
+# 📄 Digital Empowerment Internship Report
 
- 📥 [ Download the report](https://github.com/engrmumtazali0112/EcodeCamp_Internships/blob/main/EcodeCamp%20Internship%20Report.pdf)
+[📥 Download the report](https://github.com/engrmumtazali0112/Digital_Empowerment_Pakistan_Internships/raw/main/Digital%20Empowerment%20Pakistan%20Internship%20Report.pdf)
+
 
 
 ## 🎯 Program Overview
