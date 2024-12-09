@@ -1,0 +1,196 @@
+<%- include('partials/header', { title: 'Contact | Mumtaz Ali', headerTitle: 'Contact Information' }) %>
+
+<!-- Main Content -->
+<div class="container">
+  <div class="profile-info">
+    <h2 class="name-title">Mumtaz Ali</h2>
+    <p><strong>Python Developer</strong></p>
+    <p><strong>Location:</strong> Charsadda Rd, Mardan, Khyber Pakhtunkhwa 23200, Pakistan</p>
+    <p><strong>Email:</strong> <a href="mailto:engrmumtazali01@gmail.com">engrmumtazali01@gmail.com</a></p>
+    <p><strong>Phone:</strong> +92-3476338292 / +92-3195263849</p>
+  </div>
+</div>
+
+<!-- Footer Section -->
+<div class="footer">
+  <div class="footer-container">
+    <!-- Left Section: Contact Info -->
+    <div class="left">
+      <div class="location">
+        <img src="/assets/icons/home.svg" alt="Location" class="footer-icon" />
+        <div>
+          <p><strong>Mumtaz Ali</strong></p>
+          <p>Charsadda Rd, Mardan, Khyber Pakhtunkhwa 23200, Pakistan</p>
+          <p>Pakistan</p>
+        </div>
+      </div>
+      <div class="phone">
+        <h4>
+          <img src="/assets/icons/phone.svg" alt="Phone" class="footer-icon" />
+          +92-3476338292
+        </h4>
+        <h4>
+          <img src="/assets/icons/phone.svg" alt="Phone" class="footer-icon" />
+          +92-3195263849
+        </h4>
+      </div>
+      <div class="email">
+        <h4>
+          <img src="/assets/icons/mail.svg" alt="Email" class="footer-icon" />
+          <a href="mailto:engrmumtazali01@gmail.com">engrmumtazali01@gmail.com</a>
+        </h4>
+      </div>
+    </div>
+
+    <!-- Right Section: Social Links & About Me -->
+    <div class="right">
+      <h4>About me</h4>
+      <p>This is Mumtaz Ali, a Computer Science student and Python developer. For more info, <a href="https://www.linkedin.com/in/mumtazali12/" target="_blank">(Click Here!)</a>.</p>
+      <div class="our-social"><p>See My Socials:</p></div>
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100072570194916L" target="_blank" rel="noopener noreferrer">
+          <img alt="Facebook" class="social-icon" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Facebook.svg">
+        </a>
+        <a href="https://x.com/mumtazali1223/status/1846913595021328672?s=51" target="_blank" rel="noopener noreferrer">
+          <img alt="Twitter" class="social-icon" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Twitter.svg">
+        </a>
+        <a href="https://www.instagram.com/its_maliyzi?igsh=MWR1Y2x1a2xpazBpOA" target="_blank" rel="noopener noreferrer">
+          <img alt="Instagram" class="social-icon" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Instagram.svg">
+        </a>
+        <a href="http://www.youtube.com/@MumtazAli-nm6cz" target="_blank" rel="noopener noreferrer">
+          <img alt="YouTube" class="social-icon" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/YouTube.svg">
+        </a>
+        <a href="https://www.linkedin.com/in/mumtazali12/" target="_blank" rel="noopener noreferrer">
+          <img alt="LinkedIn" class="social-icon" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Linkedin.svg">
+        </a>
+        <a href="https://github.com/engrmumtazali0112" target="_blank" rel="noopener noreferrer">
+          <img alt="GitHub" class="social-icon" src="https://cdn.svgporn.com/logos/github-icon.svg">
+        </a>
+        <a href="https://discord.gg/DZgwHzEb" target="_blank" rel="noopener noreferrer">
+          <img alt="Discord" class="social-icon" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Discord.svg">
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Copyright Notice -->
+  <div class="copyright">
+    <p>2024 All rights reserved.</p>
+  </div>
+</div>
+
+<!-- CSS Styles -->
+<style>
+  /* General Styling for the Contact Page */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  .name-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Footer Styling */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .left, .right {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .left .location,
+  .left .phone,
+  .left .email {
+    margin-bottom: 20px;
+  }
+
+  .footer-icon {
+    width: 20px;
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    font-weight: normal;
+  }
+
+  .social {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .social-icon {
+    width: 40px;
+    transition: transform 0.3s ease;
+    margin: 0 15px;
+  }
+
+  .social-icon:hover {
+    transform: scale(1.1);
+  }
+
+  .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .footer-container .left,
+    .footer-container .right {
+      padding: 10px;
+    }
+
+    .social {
+      justify-content: center;
+    }
+
+    .social-icon {
+      width: 35px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .name-title {
+      font-size: 2rem;
+    }
+
+    .footer-icon {
+      width: 18px;
+      margin-right: 0.8rem;
+    }
+
+    .footer-container .left,
+    .footer-container .right {
+      font-size: 14px;
+    }
+  }
+</style>

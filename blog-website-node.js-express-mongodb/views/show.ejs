@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+
+<div class="container">
+  <h1><%= post.title %></h1>
+  <p><%= post.content %></p>
+  <% if (post.image) { %>
+    <img src="/uploads/<%= post.image %>" alt="<%= post.title %>">
+  <% } %>
+  <p>Created at: <%= new Date(post.createdAt).toLocaleString() %></p>
+  
+  <a href="/posts/<%= post._id %>/edit" class="btn btn-primary">Edit</a>
+  
+  <form action="/posts/<%= post._id %>?_method=DELETE" method="POST" style="display: inline;">
+    <button type="submit" class="btn btn-danger">Delete</button>
+  </form>
+  
+  <a href="/posts" class="btn btn-secondary">Back to All Posts</a>
+</div>
+
+<%- include('partials/footer') %>

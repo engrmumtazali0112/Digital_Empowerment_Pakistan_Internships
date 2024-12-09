@@ -1,0 +1,70 @@
+<%- include('partials/header') %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/styles/dashboard.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <p>Welcome, <%= user.username %></p>
+    </header>
+
+    <section class="stats">
+        <div class="stat-card">
+            <h2>Total Users</h2>
+            <p><%= users.length %></p>
+        </div>
+        <div class="stat-card">
+            <h2>Total Posts</h2>
+            <p><%= posts.length %></p>
+        </div>
+        <div class="stat-card">
+            <h2>Active Users</h2>
+            <p><%= activeUsers.length %></p> <!-- Changed from `activeUsers` to `activeUsers.length` to reflect the count -->
+        </div>
+    </section>
+
+    <section class="recent-posts">
+        <h2>Recent Posts</h2>
+        <% posts.slice(0, 5).forEach(post => { %>
+            <div class="post-item">
+                <h3><%= post.title %></h3>
+                <p>By <%= post.author ? post.author.username : 'Unknown' %> on <%= new Date(post.createdAt).toLocaleDateString() %></p>
+                <% if (post.image) { %>
+                    <img src="/uploads/<%= post.image %>" alt="<%= post.title %>" style="max-width: 200px;">
+                <% } %>
+                <p><%= post.content.substring(0, 100) %>...</p>
+                <a href="/posts/<%= post._id %>">Read more</a>
+            </div>
+        <% }) %>
+    </section>
+
+    <section class="frequent-posters">
+        <h2>Users with 3 or More Posts</h2>
+        <% users.filter(user => user.posts.length >= 3).forEach(user => { %>
+            <div class="frequent-poster-item">
+                <h3><%= user.username %></h3>
+                <p>Total Posts: <%= user.posts.length %></p>
+                <p>Joined: <%= new Date(user.createdAt).toLocaleDateString() %></p>
+            </div>
+        <% }) %>
+    </section>
+    
+    <section class="user-list">
+        <h2>All Users</h2>
+        <% users.forEach(user => { %>
+            <div class="user-item">
+                <h3><%= user.username %></h3>
+                <p>Joined: <%= new Date(user.createdAt).toLocaleDateString() %> | Posts: <%= user.posts.length %></p>
+            </div>
+        <% }) %>
+    </section>
+
+</body>
+</html>
+<%- include('partials/footer') %>

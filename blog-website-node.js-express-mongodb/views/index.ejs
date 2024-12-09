@@ -1,0 +1,50 @@
+<%- include('partials/header') %>
+<div class="author">
+  <h1 class="author__heading">Hi, I am Mumtaz Ali.</h1>
+  <p class="author__body">Python Developer</p>
+
+  <!-- Centered Image Section -->
+  <div class="author__image">
+    <img src="/images/profile.jpg.png" alt="Mumtaz Ali" class="author__profile-img">
+
+  </div>
+</div>
+
+<h2>Latest Posts</h2>
+
+<% if (posts.length > 0) { %>
+  <ul class="post-list">
+    <% posts.forEach(post => { %>
+      <li class="post-item">
+        <h3 class="post-title"><a href="/posts/<%= post._id %>"><%= post.title %></a></h3>
+        
+        <% if (post.image) { %>
+          <img src="/uploads/<%= post.image %>" alt="<%= post.title %>" class="post-image">
+        <% } %>
+        
+        <div class="post-content">
+          <%= post.content %>
+        </div>
+        
+        <div class="post-meta">
+          <span class="post-date"><%= new Date(post.createdAt).toLocaleDateString() %></span>
+          
+          <div class="post-actions">
+            <a href="/posts/<%= post._id %>/edit" class="icon-button edit" title="Edit">
+              <i class="fas fa-edit"></i>
+            </a>
+            <form action="/posts/<%= post._id %>?_method=DELETE" method="POST" style="display:inline;">
+              <button type="submit" class="icon-button delete" title="Delete">
+                <i class="fas fa-trash"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </li>
+    <% }) %>
+  </ul>
+<% } else { %>
+  <p>No posts yet. <a href="/posts/new">Create a new post</a></p>
+<% } %>
+
+<%- include('partials/footer') %>

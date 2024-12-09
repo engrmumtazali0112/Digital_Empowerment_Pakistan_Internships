@@ -1,0 +1,113 @@
+<%- include('partials/header') %>
+
+<style>
+  /* Form Container Styling */
+  .form-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 700px;
+    margin: 2rem auto;
+    box-sizing: border-box;
+  }
+
+  /* Form Elements Styling */
+  form div {
+    margin-bottom: 1rem;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  input[type="text"],
+  textarea,
+  input[type="file"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  /* Image Display Styling */
+  img {
+    max-width: 200px;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  /* Button Styling */
+  button[type="submit"] {
+    background-color: #3975ad; /* Primary color */
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #466d97; /* Secondary color */
+  }
+
+  /* Back to Posts Button Styling */
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #466d97; /* Secondary color */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #3975ad; /* Primary color */
+  }
+</style>
+
+<h2><%= action %> Post</h2>
+
+<form action="<%= formAction %>" method="POST" enctype="multipart/form-data" class="form-container">
+  <div>
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" value="<%= post ? post.title : '' %>" required>
+  </div>
+  <div>
+    <label for="content">Content:</label>
+    <textarea id="content" name="content" required><%= post ? post.content : '' %></textarea>
+  </div>
+  <div>
+    <label for="image">Image:</label>
+    <input type="file" id="image" name="image" accept="image/*">
+  </div>
+  <% if (post && post.image) { %>
+  <div>
+    <img src="/uploads/<%= post.image %>" alt="Post image">
+    <label>
+      <input type="checkbox" name="deleteImage" value="true"> Delete existing image
+    </label>
+  </div>
+  <% } %>
+  <% if (action === 'Edit') { %>
+    <input type="hidden" name="_method" value="PUT">
+  <% } %>
+  <button type="submit"><%= action %> Post</button>
+</form>
+
+<a href="/posts" class="btn">Back to Posts</a>
+
+<%- include('partials/footer') %>

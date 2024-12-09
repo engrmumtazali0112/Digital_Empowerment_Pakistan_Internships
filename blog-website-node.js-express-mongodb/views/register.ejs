@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+<h2>Register</h2>
+<% if (typeof error !== 'undefined') { %>
+    <p style="color:red"><%= error %></p>
+<% } %>
+
+<form action="/auth/register" method="POST">
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <button type="submit">Register</button>
+</form>
+<%- include('partials/footer') %>
